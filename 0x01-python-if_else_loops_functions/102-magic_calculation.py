@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-# Author - CEN Smart
+# 102-magic_calculation.py
+# Amos Mwongela Gabriel <amosmwongelah@gmail.com>
+
 
 def magic_calculation(a, b, c):
     """Match bytecode provided by Holberton School."""

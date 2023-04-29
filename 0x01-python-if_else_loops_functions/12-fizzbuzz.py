@@ -1,13 +1,14 @@
 #!/usr/bin/python3
-# Author - CEN Smart
-"""Print the numbers from 1 to 100 separated by a space.
-  For multiples of three, print Fizz instead of the number
-  For multiples of five, print Buzz instead of the number.
-  For multiples of three and five, print FizzBuzz instead of the number.
-  """
+# 12-fizzbuzz.py
+# Amos Mwongela Gabriel <amosmwongelah@gmail.com>
 
 
 def fizzbuzz():
+    """Print the numbers from 1 to 100 separated by a space.
+    For multiples of three, print Fizz instead of the number.
+    For multiples of five, print Buzz instead of the number.
+    For multiples of three and five, print FizzBuzz instead of the number.
+    """
     for number in range(1, 101):
         if number % 3 == 0 and number % 5 == 0:
             print("FizzBuzz ", end="")

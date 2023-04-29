@@ -1,2 +1,3 @@
--- list all rows of the table first_table --from the database hbtn_0n_0
-SELECT * FROM `first_table`;
+-- 6-list_values.sql
+-- Lists all the values in each row of the table 'first_table'
+SELECT * FROM first_table;

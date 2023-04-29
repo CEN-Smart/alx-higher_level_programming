@@ -1,3 +1,4 @@
--- deletes a database hbnt_0c_0 if it exists
--- remove a database
-DROP DATABASE IF EXISTS hbtn_0c_0
+-- 2-remove_database.sql
+-- removes a specific database from the server if it exists.
+-- If it does not exists, it does not raise an error
+DROP DATABASE IF EXISTS hbtn_0c_0;

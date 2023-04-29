@@ -1,5 +1,6 @@
--- list all records of the table second_table of the database hbtn_0n_0
-SELECT `score`, `name`
-FROM `second_table`
-WHERE `name` != ""
-ORDER BY `score` DESC
+-- 16-no_link.sql
+-- Lists names and scores by order of descending scores
+SELECT score, name
+FROM second_table
+WHERE name IS NOT NULL
+ORDER BY score DESC;

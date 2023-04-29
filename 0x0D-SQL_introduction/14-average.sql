@@ -1,3 +1,4 @@
--- computes the score of aveage of all records in the second_table
-SELECT AVG(`score`) AS `average`
-FROM `second_table`;
+-- 14-average.sql
+-- Returns the average of the scores in all the records.
+SELECT AVG(score) AS average
+FROM second_table;

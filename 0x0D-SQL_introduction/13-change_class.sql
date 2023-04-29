@@ -1,4 +1,4 @@
--- remove all records with score <= 5 
--- in the second_table of the database hbtn_0n_0
-DELETE FROM `second_table`
-WHERE `score` <= 5;
+-- 13-change_class.sql
+-- Removes certain records that meet the criteria of having a score <= 5
+DELETE FROM second_table
+WHERE score <= 5
